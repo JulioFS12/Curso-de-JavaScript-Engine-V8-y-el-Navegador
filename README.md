@@ -1,4 +1,5 @@
 # Curso-de-JavaScript-Engine-V8-y-el-Navegador
+[more....](https://mauriciogc.medium.com/javascript-c%C3%B3mo-funciona-el-runtime-environment-jre-8ebceafdc938)
 
 [Evolucion de la web](http://www.evolutionoftheweb.com/)
 
@@ -54,7 +55,21 @@ El memory heap es el espacio en memoria donde se guardan todas las funciones, va
 La pila de llamadas, “call stack”, es una estructura dinámica de datos LIFO que almacena información sobre las subrutinas de una aplicación. Piensalo como el lugar para llamadas de funciones, o una estructura de datos que implementa el tipo de datos de la pila (stack), es el lugar donde se llaman las funciones o procesos de una aplicacion donde solamente se puede ejecutar una función a la vez.
 
 ### Garbage Collection
-Limpia la memoria de los datos no utilizados para no sobrecargarla y seguir trabajando sin problemas, en otras palabras cuando dejamos de usar el valor que tiene una variable y lo elimina cuando le asignamos otro valor.
+Limpia la memoria de los datos no utilizados para no sobrecargarla y seguir trabajando sin problemas, en otras palabras cuando reasingnamos una variable elimina los valores pasados.
 
 ![Imgane](https://i.stack.imgur.com/shG8h.gif)
+
+### Stack Overflow
+
+El stack overflow se genera cuando el call stack se llena completamente (pila de tareas) .Esto pasa cuando se genera o se trabaja con bucles infinitos, recurcividad y funciones.Entonces este entra en stack overflow , tenemos que tener cuidado de ocacionar estos stack!!!
+
+### Runtime javaScript
+
+![image](https://res.cloudinary.com/practicaldev/image/fetch/s--BLtCLQcd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://devtolydiahallie.s3-us-west-1.amazonaws.com/gif14.1.gif)
+
+![Imagen](https://aseemrb.me/images/weird-awesome-javascript/chrome.png)
+
+[Funciones el API del navegador](https://developer.mozilla.org/en-US/docs/Web/API)
+
+
 
